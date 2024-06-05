@@ -1,0 +1,36 @@
+nav {
+    width: 100%;
+    .navbar {
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 40px 20px 40px;
+
+        >div {
+            font-size: 30px;
+            font-weight: 700;
+            color: red;
+        }
+
+        button {
+            
+            font-size: 16px;
+            font-weight: 500;
+            padding: 10px;
+            background-color: rgb(69, 69, 187);
+            color: white;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+
+        
+    }
+
+    .header {
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+        margin: 4rem 0 2rem 0;
+    }
+}
